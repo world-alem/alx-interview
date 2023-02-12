@@ -1,6 +1,4 @@
 #!/usr/bin/node
-// commented
-
 
 const request = require('request-promise-native');
 
