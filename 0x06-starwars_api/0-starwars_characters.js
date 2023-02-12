@@ -2,7 +2,7 @@
 
 const request = require('request-promise-native');
 
-async function main(id) {
+async function main (id) {
   try {
     const movieData = await request(`https://swapi-api.alx-tools.com/api/films/${id}/`);
     const movie = JSON.parse(movieData);
